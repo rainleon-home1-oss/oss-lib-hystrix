@@ -7,7 +7,7 @@
 ## 使用方法
 + 已入依赖
         <dependency>
-            <groupId>com.yirendai.oss.lib</groupId>
+            <groupId>com.yirendai.infra</groupId>
             <artifactId>oss-lib-hystrix</artifactId>
             // 替换成现有版本 <version>1.0.7.OSS</version>
         </dependency>

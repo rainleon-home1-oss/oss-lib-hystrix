@@ -1,4 +1,4 @@
-package com.yirendai.oss.lib.histrix.config;
+package cn.home1.oss.lib.hystrix.config;
 
 import com.netflix.hystrix.strategy.properties.HystrixDynamicProperty;
 

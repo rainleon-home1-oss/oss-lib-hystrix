@@ -1,4 +1,4 @@
-package com.yirendai.oss.lib.histrix.spring.config;
+package cn.home1.oss.lib.hystrix.spring.config;
 
 import com.netflix.hystrix.Hystrix;
 
@@ -11,6 +11,6 @@ import org.springframework.context.annotation.Configuration;
  */
 @Configuration
 @ConditionalOnClass({Hystrix.class})
-@ComponentScan(basePackages = "com.yirendai.oss.lib.histrix.config")
+@ComponentScan(basePackages = "cn.home1.oss.lib.hystrix.config")
 public class HystrixAutoConfiguration {
 }
